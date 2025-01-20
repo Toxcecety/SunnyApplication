@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">SunnyApplication</string>
+    <string name="menu_about_sunny">About Sunny</string>
+    <string name="menu_sunny_pictures">Pictures</string>
+    <string name="menu_sunny_predictions">Predictions</string>
+    <string name="menu_sunny_meme">Make a meme</string>
+    <string name="menu_sunny_dressup">Dress up</string>
+    <string name="sunny_logo">Sunny centered in the sun</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
