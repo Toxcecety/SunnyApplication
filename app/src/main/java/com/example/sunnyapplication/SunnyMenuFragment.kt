@@ -24,5 +24,12 @@ class SunnyMenuFragment : Fragment() {
         binding.navMenuToAboutButton.setOnClickListener {
             findNavController().navigate(R.id.action_sunnyMenuFragment_to_sunnyAboutFragment)
         }
+        binding.navMenuToPicturesButton.setOnClickListener {
+            findNavController().navigate(R.id.action_sunnyMenuFragment_to_sunnyPicturesFragment)
+        }
+        binding.navMenuToDressupButton.setOnClickListener {
+            findNavController().navigate(R.id.action_sunnyMenuFragment_to_sunnyDressUpFragment)
+        }
+
     }
 }
