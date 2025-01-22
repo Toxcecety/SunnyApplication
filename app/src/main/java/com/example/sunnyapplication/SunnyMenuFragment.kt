@@ -24,8 +24,8 @@ class SunnyMenuFragment : Fragment() {
         binding.navMenuToAboutButton.setOnClickListener {
             findNavController().navigate(R.id.action_sunnyMenuFragment_to_sunnyAboutFragment)
         }
-        binding.navMenuToPicturesButton.setOnClickListener {
-            findNavController().navigate(R.id.action_sunnyMenuFragment_to_sunnyPicturesFragment)
+        binding.navMenuToGalleryButton.setOnClickListener {
+            findNavController().navigate(R.id.action_sunnyMenuFragment_to_sunnyGalleryFragment)
         }
         binding.navMenuToDressupButton.setOnClickListener {
             findNavController().navigate(R.id.action_sunnyMenuFragment_to_sunnyDressUpFragment)

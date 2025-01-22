@@ -1,0 +1,97 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:columnCount="2"
+    android:padding="16dp"
+    android:background="@drawable/background_wood_panels"
+    tools:context=".SunnyGalleryFragment">
+
+    <!-- Frame 1 -->
+    <ImageButton
+        android:id="@+id/button_frame_1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/frame_1"
+        android:scaleType="centerInside"
+        android:background="@null"
+        android:layout_margin="8dp"
+        android:contentDescription="Frame 1"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_gravity="fill" />
+
+    <!-- Frame 2 -->
+    <ImageButton
+        android:id="@+id/button_frame_2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/frame_2"
+        android:scaleType="centerInside"
+        android:background="@null"
+        android:layout_margin="8dp"
+        android:contentDescription="Frame 2"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_gravity="fill" />
+
+    <!-- Frame 3 -->
+    <ImageButton
+        android:id="@+id/button_frame_3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/frame_3"
+        android:scaleType="centerInside"
+        android:background="@null"
+        android:layout_margin="8dp"
+        android:contentDescription="Frame 3"
+        android:layout_columnWeight="1.5"
+        android:layout_rowWeight="1"
+        android:layout_gravity="fill" />
+
+    <!-- Frame 4 -->
+    <ImageButton
+        android:id="@+id/button_frame_4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/frame_4"
+        android:scaleType="centerInside"
+        android:background="@null"
+        android:layout_margin="8dp"
+        android:contentDescription="Frame 4"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_gravity="fill" />
+
+    <!-- Frame 5 -->
+    <ImageButton
+        android:id="@+id/button_frame_5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/frame_5"
+        android:scaleType="fitXY"
+        android:background="@null"
+        android:layout_margin="8dp"
+        android:contentDescription="Frame 5"
+        android:layout_columnSpan="2"
+        android:layout_rowWeight="1"
+        android:layout_gravity="fill" />
+
+    <!-- Back to Menu Button -->
+    <Button
+        android:id="@+id/nav_gallery_to_menu_button"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_columnSpan="2"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_big2"
+        android:padding="12dp"
+        android:text="Back to Menu"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+</GridLayout>
+
+

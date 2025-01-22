@@ -14,11 +14,11 @@
             android:id="@+id/action_sunnyMenuFragment_to_sunnyAboutFragment"
             app:destination="@id/sunnyAboutFragment" />
         <action
-            android:id="@+id/action_sunnyMenuFragment_to_sunnyPicturesFragment"
-            app:destination="@id/sunnyPicturesFragment" />
-        <action
             android:id="@+id/action_sunnyMenuFragment_to_sunnyDressUpFragment"
             app:destination="@id/sunnyDressUpFragment" />
+        <action
+            android:id="@+id/action_sunnyMenuFragment_to_sunnyGalleryFragment"
+            app:destination="@id/sunnyGalleryFragment" />
     </fragment>
     <fragment
         android:id="@+id/sunnyAboutFragment"
@@ -30,21 +30,21 @@
             app:destination="@id/sunnyMenuFragment" />
     </fragment>
     <fragment
-        android:id="@+id/sunnyPicturesFragment"
-        android:name="com.example.sunnyapplication.SunnyPicturesFragment"
-        android:label="fragment_sunny_pictures"
-        tools:layout="@layout/fragment_sunny_pictures" >
-        <action
-            android:id="@+id/action_sunnyPicturesFragment_to_sunnyMenuFragment"
-            app:destination="@id/sunnyMenuFragment" />
-    </fragment>
-    <fragment
         android:id="@+id/sunnyDressUpFragment"
         android:name="com.example.sunnyapplication.SunnyDressUpFragment"
         android:label="fragment_sunny_dress_up"
         tools:layout="@layout/fragment_sunny_dress_up" >
         <action
             android:id="@+id/action_sunnyDressUpFragment_to_sunnyMenuFragment"
+            app:destination="@id/sunnyMenuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sunnyGalleryFragment"
+        android:name="com.example.sunnyapplication.SunnyGalleryFragment"
+        android:label="fragment_sunny_gallery"
+        tools:layout="@layout/fragment_sunny_gallery" >
+        <action
+            android:id="@+id/action_sunnyGalleryFragment_to_sunnyMenuFragment"
             app:destination="@id/sunnyMenuFragment" />
     </fragment>
 </navigation>
