@@ -33,7 +33,7 @@
         <Button
             android:id="@+id/nav_menu_to_gallery_button"
             style="@style/MenuButtonStyle"
-            android:text="@string/menu_sunny_pictures" />
+            android:text="@string/menu_sunny_gallery" />
 
         <Button
             android:id="@+id/nav_menu_to_predictions_button"

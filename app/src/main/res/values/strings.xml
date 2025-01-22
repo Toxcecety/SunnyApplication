@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">SunnyApplication</string>
     <string name="menu_about_sunny">About Sunny</string>
-    <string name="menu_sunny_pictures">Pictures</string>
+    <string name="menu_sunny_gallery">Gallery</string>
     <string name="menu_sunny_predictions">Predictions</string>
     <string name="menu_sunny_meme">Make a meme</string>
     <string name="menu_sunny_dressup">Dress up</string>
