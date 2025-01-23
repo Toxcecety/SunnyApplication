@@ -30,7 +30,8 @@ class SunnyPredictionsFragment : Fragment() {
         "Cloudy...cloudy.",
         "Oh wow... yikes.",
         "Interesting...",
-        "Nope."
+        "Nope.",
+        "hmm...bark?"
     )
 
     override fun onCreateView(
