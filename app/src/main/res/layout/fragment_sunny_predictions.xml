@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SunnyPredictionsFragment">
+
+    <!-- Background Image -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@color/black"
+        android:scaleType="centerCrop" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Back to Menu Button -->
+        <Button
+            android:id="@+id/nav_predictions_to_menu_button"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_gravity="top"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:background="@drawable/button_big2"
+            android:padding="16dp"
+            android:text="Back to Menu"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <!-- Smoke Cloud with Padding -->
+        <TextView
+            android:id="@+id/smoke_cloud_prediction"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:text="Your Fortune Awaits..."
+            android:background="@drawable/pixel_cloud_1"
+            android:padding="32dp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:shadowColor="#000000"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="3"
+            android:visibility="gone" />
+
+        <!-- Table Button -->
+        <ImageButton
+            android:id="@+id/button_sunny_predictions_table"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:src="@drawable/pixel_sunny_fortune"
+            android:scaleType="centerCrop"
+            android:background="@null"
+            android:contentDescription="Table Button" />
+
+        <!-- Crystal Ball Button -->
+        <ImageButton
+            android:id="@+id/button_crystal_ball_button"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_gravity="right|bottom"
+            android:layout_marginBottom="50dp"
+            android:background="@null"
+            android:contentDescription="Crystal Ball Button"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pixel_crystal_ball" />
+    </FrameLayout>
+
+</FrameLayout>
+

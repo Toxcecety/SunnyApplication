@@ -19,6 +19,9 @@
         <action
             android:id="@+id/action_sunnyMenuFragment_to_sunnyGalleryFragment"
             app:destination="@id/sunnyGalleryFragment" />
+        <action
+            android:id="@+id/action_sunnyMenuFragment_to_sunnyPredictionsFragment"
+            app:destination="@id/sunnyPredictionsFragment" />
     </fragment>
     <fragment
         android:id="@+id/sunnyAboutFragment"
@@ -45,6 +48,15 @@
         tools:layout="@layout/fragment_sunny_gallery" >
         <action
             android:id="@+id/action_sunnyGalleryFragment_to_sunnyMenuFragment"
+            app:destination="@id/sunnyMenuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sunnyPredictionsFragment"
+        android:name="com.example.sunnyapplication.SunnyPredictionsFragment"
+        android:label="fragment_sunny_predictions"
+        tools:layout="@layout/fragment_sunny_predictions" >
+        <action
+            android:id="@+id/action_sunnyPredictionsFragment_to_sunnyMenuFragment"
             app:destination="@id/sunnyMenuFragment" />
     </fragment>
 </navigation>

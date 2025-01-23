@@ -30,6 +30,10 @@ class SunnyMenuFragment : Fragment() {
         binding.navMenuToDressupButton.setOnClickListener {
             findNavController().navigate(R.id.action_sunnyMenuFragment_to_sunnyDressUpFragment)
         }
+        binding.navMenuToPredictionsButton.setOnClickListener {
+            findNavController().navigate(R.id.action_sunnyMenuFragment_to_sunnyPredictionsFragment)
+        }
+
 
     }
 }
