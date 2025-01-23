@@ -33,7 +33,6 @@ class SunnyGalleryFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        var score = 0
 
         // Create a SoundPool instance
         val audioAttributes = AudioAttributes.Builder()
