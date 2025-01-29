@@ -33,7 +33,8 @@ class SunnyMenuFragment : Fragment() {
         binding.navMenuToPredictionsButton.setOnClickListener {
             findNavController().navigate(R.id.action_sunnyMenuFragment_to_sunnyPredictionsFragment)
         }
-
-
+        binding.navMenuToMemeButton.setOnClickListener {
+            findNavController().navigate(R.id.action_sunnyMenuFragment_to_sunnyMemeFragment)
+        }
     }
 }
