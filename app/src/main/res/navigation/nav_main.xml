@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/sunnyMenuFragment">
+
+    <fragment
+        android:id="@+id/sunnyMenuFragment"
+        android:name="com.example.sunnyapplication.SunnyMenuFragment"
+        android:label="fragment_sunny_menu"
+        tools:layout="@layout/fragment_sunny_menu" >
+        <action
+            android:id="@+id/action_sunnyMenuFragment_to_sunnyAboutFragment"
+            app:destination="@id/sunnyAboutFragment" />
+        <action
+            android:id="@+id/action_sunnyMenuFragment_to_sunnyDressUpFragment"
+            app:destination="@id/sunnyDressUpFragment" />
+        <action
+            android:id="@+id/action_sunnyMenuFragment_to_sunnyGalleryFragment"
+            app:destination="@id/sunnyGalleryFragment" />
+        <action
+            android:id="@+id/action_sunnyMenuFragment_to_sunnyPredictionsFragment"
+            app:destination="@id/sunnyPredictionsFragment" />
+        <action
+            android:id="@+id/action_sunnyMenuFragment_to_sunnyMemeFragment"
+            app:destination="@id/sunnyMemeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sunnyAboutFragment"
+        android:name="com.example.sunnyapplication.SunnyAboutFragment"
+        android:label="fragment_sunny_about"
+        tools:layout="@layout/fragment_sunny_about" >
+        <action
+            android:id="@+id/action_sunnyAboutFragment_to_sunnyMenuFragment"
+            app:destination="@id/sunnyMenuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sunnyDressUpFragment"
+        android:name="com.example.sunnyapplication.SunnyDressUpFragment"
+        android:label="fragment_sunny_dress_up"
+        tools:layout="@layout/fragment_sunny_dress_up" >
+        <action
+            android:id="@+id/action_sunnyDressUpFragment_to_sunnyMenuFragment"
+            app:destination="@id/sunnyMenuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sunnyGalleryFragment"
+        android:name="com.example.sunnyapplication.SunnyGalleryFragment"
+        android:label="fragment_sunny_gallery"
+        tools:layout="@layout/fragment_sunny_gallery" >
+        <action
+            android:id="@+id/action_sunnyGalleryFragment_to_sunnyMenuFragment"
+            app:destination="@id/sunnyMenuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sunnyPredictionsFragment"
+        android:name="com.example.sunnyapplication.SunnyPredictionsFragment"
+        android:label="fragment_sunny_predictions"
+        tools:layout="@layout/fragment_sunny_predictions" >
+        <action
+            android:id="@+id/action_sunnyPredictionsFragment_to_sunnyMenuFragment"
+            app:destination="@id/sunnyMenuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sunnyMemeFragment"
+        android:name="com.example.sunnyapplication.SunnyMemeFragment"
+        android:label="fragment_sunny_meme"
+        tools:layout="@layout/fragment_sunny_meme" >
+        <action
+            android:id="@+id/action_sunnyMemeFragment_to_sunnyMenuFragment"
+            app:destination="@id/sunnyMenuFragment" />
+        <action
+            android:id="@+id/action_sunnyMemeFragment_to_sunnyMemeFragmentResult"
+            app:destination="@id/sunnyMemeFragmentResult" />
+    </fragment>
+    <fragment
+        android:id="@+id/sunnyMemeFragmentResult"
+        android:name="com.example.sunnyapplication.SunnyMemeFragmentResult"
+        android:label="fragment_sunny_meme_result"
+        tools:layout="@layout/fragment_sunny_meme_result" >
+        <action
+            android:id="@+id/action_sunnyMemeFragmentResult_to_sunnyMenuFragment"
+            app:destination="@id/sunnyMenuFragment" />
+        <action
+            android:id="@+id/action_sunnyMemeFragmentResult_to_sunnyMemeFragment"
+            app:destination="@id/sunnyMemeFragment" />
+    </fragment>
+</navigation>

@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">SunnyApplication</string>
+    <string name="menu_about_sunny">About Sunny</string>
+    <string name="menu_sunny_gallery">Gallery</string>
+    <string name="menu_sunny_predictions">Predictions</string>
+    <string name="menu_sunny_meme">Make a meme</string>
+    <string name="menu_sunny_dressup">Dress up</string>
+    <string name="sunny_logo">Sunny centered in the sun</string>
+    <string name="sunny_about">Sunny is a cheerful, playful dog who loves naps and going on walks. Sunny’s favorite toy is Koala. She always greets guests with a wagging tail!</string>
+    <string name="back_to_menu">Back to Menu</string>
 </resources>
