@@ -43,6 +43,16 @@ class SunnyMemeFragment : Fragment() {
             currentSunnyIndex = (currentSunnyIndex + 1) % sunnyPictures.size
             updateMemePicture()
         }
+
+        binding.submitMemeButton.setOnClickListener {
+            val memeText = binding.memeInputText.text.toString()
+            val sunnyPicture = sunnyPictures[currentSunnyIndex]
+            val bundle = Bundle().apply {
+                putString("memeText", memeText)
+                putInt("sunnyPicture", sunnyPicture)
+            }
+            findNavController().navigate(R.id.action_sunnyMemeFragment_to_sunnyMemeFragmentResult, bundle)
+        }
     }
 
     private fun updateMemePicture() {

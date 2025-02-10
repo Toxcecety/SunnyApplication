@@ -5,7 +5,6 @@
     android:layout_height="match_parent"
     tools:context=".SunnyPredictionsFragment">
 
-    <!-- Background Image -->
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -16,7 +15,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <!-- Back to Menu Button -->
         <Button
             android:id="@+id/nav_predictions_to_menu_button"
             android:layout_width="150dp"
@@ -26,7 +24,7 @@
             android:layout_marginLeft="16dp"
             android:background="@drawable/button_big2"
             android:padding="16dp"
-            android:text="Back to Menu"
+            android:text="@string/back_to_menu"
             android:textColor="@android:color/black"
             android:textSize="16sp" />
 

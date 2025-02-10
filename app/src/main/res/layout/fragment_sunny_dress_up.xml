@@ -5,15 +5,12 @@
     android:layout_height="match_parent"
     tools:context=".SunnyAboutFragment">
 
-    <!-- Background Image -->
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:src="@drawable/background3"
         android:scaleType="centerCrop"/>
 
-
-    <!-- Back to Menu Button -->
     <Button
         android:id="@+id/nav_dressup_to_menu_button"
         android:layout_width="150dp"
@@ -27,7 +24,6 @@
         android:textColor="@android:color/black"
         android:textSize="16sp" />
 
-    <!-- Content Layout -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -70,7 +66,6 @@
                 android:layout_weight="1"
                 android:gravity="center_vertical">
 
-                <!-- Left Arrow for Hat -->
                 <ImageButton
                     android:id="@+id/arrow_left_hat"
                     android:layout_width="0dp"
@@ -80,7 +75,6 @@
                     android:scaleType="centerInside"
                     android:src="@drawable/arrow_left" />
 
-                <!-- Hat Name -->
                 <TextView
                     android:id="@+id/hat_index"
                     android:layout_width="wrap_content"
@@ -92,7 +86,6 @@
                     android:textStyle="bold"
                     android:textAllCaps="true"/>
 
-                <!-- Right Arrow for Hat -->
                 <ImageButton
                     android:id="@+id/arrow_right_hat"
                     android:layout_width="0dp"
@@ -107,7 +100,6 @@
                 android:layout_weight="1"
                 android:gravity="center_vertical">
 
-                <!-- Left Arrow for Hat -->
                 <ImageButton
                     android:id="@+id/arrow_left_collar"
                     android:layout_width="0dp"
@@ -128,7 +120,6 @@
                     android:textStyle="bold"
                     android:textAllCaps="true"/>
 
-                <!-- Right Arrow for Hat -->
                 <ImageButton
                     android:id="@+id/arrow_right_collar"
                     android:layout_width="0dp"

@@ -8,7 +8,6 @@
     android:background="@drawable/background_wood_panels"
     android:padding="16dp">
 
-    <!-- Back to Menu Button -->
     <Button
         android:id="@+id/nav_meme_to_menu_button"
         android:layout_width="150dp"
@@ -33,6 +32,7 @@
             android:layout_height="match_parent"
             android:src="@drawable/picture_sunny_1"
             android:scaleType="centerInside" />
+
         <ImageView
             android:id="@+id/frame_overlay"
             android:layout_width="match_parent"
@@ -52,7 +52,6 @@
             android:layout_height="wrap_content"
             android:gravity="center_vertical">
 
-            <!-- Left Arrow -->
             <ImageButton
                 android:id="@+id/arrow_left_image"
                 android:layout_width="0dp"
@@ -62,7 +61,6 @@
                 android:scaleType="centerInside"
                 android:src="@drawable/arrow_left" />
 
-            <!-- Image Index -->
             <TextView
                 android:id="@+id/image_index"
                 android:layout_width="wrap_content"
@@ -74,7 +72,6 @@
                 android:textStyle="bold"
                 android:textAllCaps="true" />
 
-            <!-- Right Arrow -->
             <ImageButton
                 android:id="@+id/arrow_right_image"
                 android:layout_width="0dp"
@@ -86,7 +83,6 @@
         </TableRow>
     </TableLayout>
 
-    <!-- Text Input for Meme -->
     <EditText
         android:id="@+id/meme_input_text"
         android:layout_width="match_parent"
@@ -99,7 +95,6 @@
         android:layout_marginBottom="16dp"
         android:textSize="16sp" />
 
-    <!-- Submit Button -->
     <Button
         android:id="@+id/submit_meme_button"
         android:layout_width="match_parent"

@@ -70,5 +70,20 @@
         <action
             android:id="@+id/action_sunnyMemeFragment_to_sunnyMenuFragment"
             app:destination="@id/sunnyMenuFragment" />
+        <action
+            android:id="@+id/action_sunnyMemeFragment_to_sunnyMemeFragmentResult"
+            app:destination="@id/sunnyMemeFragmentResult" />
+    </fragment>
+    <fragment
+        android:id="@+id/sunnyMemeFragmentResult"
+        android:name="com.example.sunnyapplication.SunnyMemeFragmentResult"
+        android:label="fragment_sunny_meme_result"
+        tools:layout="@layout/fragment_sunny_meme_result" >
+        <action
+            android:id="@+id/action_sunnyMemeFragmentResult_to_sunnyMenuFragment"
+            app:destination="@id/sunnyMenuFragment" />
+        <action
+            android:id="@+id/action_sunnyMemeFragmentResult_to_sunnyMemeFragment"
+            app:destination="@id/sunnyMemeFragment" />
     </fragment>
 </navigation>
